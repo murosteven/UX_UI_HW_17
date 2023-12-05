@@ -1,0 +1,14 @@
+<link>
+.inline-block {display: inline-block;
+    vertical-align: top;}
+div.logo {width: 23%;
+padding: 1%;}
+nav {width:73%;
+padding: 1%;}
+ul {width: 50%; margin-left: auto;}
+img.logo {text-align: center;}
+footer {background-color: #373738;}
+ul li {padding: center;}
+ul {display: inline-block; 
+    vertical-align: top;
+padding: center;}
