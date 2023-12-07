@@ -1,4 +1,4 @@
-<link>
+
 .inline-block {display: inline-block;
     vertical-align: top;}
 div.logo {width: 23%;
@@ -12,3 +12,6 @@ ul li {padding: center;}
 ul {display: inline-block; 
     vertical-align: top;
 padding: center;}
+div.casestudiesgrid {display:grid; 
+    grid-template-columns: auto auto;
+    gap: 50px;}
