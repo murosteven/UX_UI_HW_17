@@ -1,26 +1,97 @@
-
-.inline-block {display: inline-block;
-    vertical-align: top;}
-div.logo {width: 23%;
-padding: 1%;}
-nav {width:73%;
-padding: 1%;}
-ul {width: 50%; margin-left: auto;}
-img.logo {text-align: center;}
-footer {background-color: #373738;}
-ul li {padding: center;}
-ul {display: inline-block; 
-    vertical-align: top;
-padding: center;}
-div.casestudiesgrid { 
-    display:grid; 
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    grid-template-areas: 
-    "casestudy1 casestudy2"
-    "casestudy3 casestudy4";
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-#casestudy1{grid-area: casestudy1;}
-#casestudy2{grid-area: casestudy2;}
-#casestudy3{grid-area: casestudy3;}
-#casestudy4{grid-area: casestudy4;}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+  }
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.herosec {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.herosec img {
+    max-width: 100%;
+    height: auto;
+}
+
+.herosec p {
+    font-size: 18px;
+    color: #333;
+}
+
+button {
+   background-color: #2D2D2D;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+.case.studies {
+    padding: 20px;
+    text-align: center;
+}
+
+.casestudiesgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 50px;
+    justify-content: center;
+    padding: 100px;
+}
+
+.casestudiesgrid div {
+    flex: 0 0 48%;
+    margin: 1%;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
